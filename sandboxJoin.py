@@ -8,7 +8,12 @@ print("hello".join(word1))
 
 # really only works on str types
 
-theset = set(["a","d","f","z"])
+theset = set(word1)
+arr = [1,2,3,4,5]
+theset2 = set()
+
+print(theset2)
+
 
 print(theset)
 print("--".join(theset))
