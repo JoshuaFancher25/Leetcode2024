@@ -11,5 +11,7 @@ print(math.inf*-1)
 
 arr = [12,11, 10, 9, 8, 5,11, 3]
 arr2 = [i*-1 for i in arr]
+print(arr2)
+arr2.sort()
 
 print(arr2)
