@@ -42,3 +42,26 @@ arr3[-1] = 555
 print(arr3)
 print(min_heap)
 print(min_heap2)
+
+min_heap[0] = 1999
+
+print(arr3)
+print(min_heap)
+
+# shallowcopy - copies references to objects - it doesn't actually copy the object
+#               - thus if changes are made to the original object then the values
+#               - of all subsequent objects will be changed as well all objects that
+#               - reference that copy will be changed - unexpected changes occur in
+#               - copies of the object
+
+# a = b - simply creates a new reference to the same object.
+
+# heapfiy - mutates the original array and arranges the elements to satify the heap propterty
+# heapy property - min_heap all elements in the left and right subtrees are <= to the parent
+# heap is created in O(n) time -
+# max/min element is retrieved in O(1) time
+# add / delete is O(logn) -
+# heap property for a binary heap - the min element is at the root
+# heap property ensure that the root node contains the minimum element
+# giving efficient access to the minium element
+# heap is a complete binary tree that maintains the heap property
